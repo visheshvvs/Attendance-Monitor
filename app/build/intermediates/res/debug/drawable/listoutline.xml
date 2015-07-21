@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#00000000" />
+ <stroke android:width="2px" android:color="#000000"/>
+<corners android:radius="20dp" />
+</shape><!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/drawable/listoutline.xml -->

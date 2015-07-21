@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+<solid 
+    android:color="#34FFFFFF"/>
+</shape><!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/drawable/listitemdark.xml -->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>New Sem</item>
+        <item>Mark Attendance</item>
+        <item>View TimeTable</item>
+        <item>Edit TimeTable</item>
+        <item>History</item>
+        <item>Bunk Manager</item>
+        <item>About Us</item>
+    </string-array>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="action_next" type="id"/>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_finish">Edit Lect. Timings</string>
+    <string name="action_next">NEXT</string>
+    <string name="action_previous">PREVIOUS</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Slider Menu</string>
+    <string name="back">BACK</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <!-- From: file:/V:/StudioWorkspace/AttendanceTracker/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

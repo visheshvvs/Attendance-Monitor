@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/black" >"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chalo"
+        android:layout_marginLeft="5dp" >
+        <EditText 
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/editsearch"
+            android:layout_weight="4"   
+        	android:inputType="textPersonName"
+        	android:hint="Enter a Subject"
+        	android:textColor="#000000"
+        	android:background="@drawable/rounded_edittext"
+        	/>
+        <!--  <requestFocus />-->
+        <Button 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/plussign1"
+            android:layout_weight="1"
+            android:background="@drawable/ic_action_new"/>
+        
+    </LinearLayout>
+
+    <!-- A vertical LinearLayout in a ScrollView. This emulates a ListView (and is lighter weight
+         than a ListView when there aren't many rows). -->
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#242424">
+
+        <!-- Note that this LinearLayout has the "animateLayoutChanges" property set to true.
+             This tells the framework to automatically animate child views (in this case, rows)
+             as they are added to and removed from the LinearLayout. -->
+        <LinearLayout android:id="@+id/container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="middle"
+          
+            android:animateLayoutChanges="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
+    </ScrollView>
+
+    <!-- The "empty" view to show when there are no items in the "list" view defined above. -->
+    
+</LinearLayout>

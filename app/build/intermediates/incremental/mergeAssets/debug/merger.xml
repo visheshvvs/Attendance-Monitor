@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="V:\StudioWorkspace\AttendanceTracker\app\src\main\assets"><file name="Age.otf" path="V:\StudioWorkspace\AttendanceTracker\app\src\main\assets\Age.otf"/><file name="SketchRockwell-Bold.ttf" path="V:\StudioWorkspace\AttendanceTracker\app\src\main\assets\SketchRockwell-Bold.ttf"/></source></dataSet><dataSet config="debug"><source path="V:\StudioWorkspace\AttendanceTracker\app\src\debug\assets"/></dataSet></merger>
